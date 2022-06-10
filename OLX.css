@@ -1,0 +1,45 @@
+.grid-container{
+    display: grid;
+    grid-template: 30px 50px 50px 260px 40px 270px 270px 270px 200px 40px /auto auto auto auto;
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+.grid-item1{
+    display: flex;
+    flex-direction: row;
+}
+.grid-item2{
+    display: flex;
+    flex-direction: row;
+}
+.grid-item3{
+    display: flex;
+    flex-direction: row;
+
+}
+.link{
+    position:relative; 
+    top: 20px;
+    text-decoration: none;
+}
+#top{
+    grid-column: 1/span 4;
+}
+#header{
+    grid-column: 1/span 4;
+}
+#head{
+    grid-column: 1/span 4;
+}
+#banner{
+    grid-column: 1/span 4;
+}
+
+#footer{
+    grid-column: 1/span 4;
+}
+#reco{
+    grid-column: 1/span 4;
+    font-size: 30px;
+}
